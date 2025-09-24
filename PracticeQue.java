@@ -1,3 +1,6 @@
+package LinkedList;
+
+
 public class PracticeQue{
     public static class Node{
         int data;
@@ -89,11 +92,10 @@ public class PracticeQue{
             //2nd step
             prev=curr;
             curr=curr.next;
-
-            if (countN !=N){
+        }
+        if (countN !=N){
                 //N elements bache hi nhi dlt krne ko then, 
                 store.next=null;
-            }
         }
     }
 
